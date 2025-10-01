@@ -1,0 +1,15 @@
+.title {
+  margin-bottom: 128px;
+  font-size: 64px;
+}
+
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.buttonContainer {
+  display: flex;
+  gap: 24px;
+}

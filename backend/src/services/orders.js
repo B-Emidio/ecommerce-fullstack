@@ -28,7 +28,7 @@ function createOrder(clientId, productId, quantity, total, date) {
 
 function updateOrder(orderId, clientId, productId, quantity, total, date) {
     return new Promise((resolve, reject) => {
-        db.run('UPDATE compra SET client_id = (?), produto_id = (?), quantidade = (?), preco_total = (?), data_compra = (?) WHERE id = (?)',
+        db.run('UPDATE compra SET cliente_id = (?), produto_id = (?), quantidade = (?), preco_total = (?), data_compra = (?) WHERE id = (?)',
             clientId, productId, quantity, total, date, orderId, function(err) {
             if(err)
                 reject(new AppError("Falha ao atualizar compra. Tente novamente mais tarde."));

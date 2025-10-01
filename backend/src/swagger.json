@@ -1,7 +1,7 @@
 {
   "openapi": "3.0.4",
   "info": {
-    "title": "E-commerce API",
+    "title": "E-Commerce API",
     "description": "Essa é uma API simples para o gerenciamento de banco de um sistema de gerenciamento de compras de clientes de um comércio. O sistema é responsável por criar e gerenciar clientes, produtos e compras.",
     "version": "1.0.0"
   },

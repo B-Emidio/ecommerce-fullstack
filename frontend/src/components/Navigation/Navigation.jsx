@@ -9,6 +9,15 @@ const Navigation = () => {
   return (
     <Navbar fixed="top" bg="primary" data-bs-theme="dark">
       <Container>
+        <Navbar.Brand href="/">
+          <img
+            alt=""
+            src="/shopping-cart.svg"
+            width="60"
+            height="50"
+            className="d-inline-block align-top"
+          />
+        </Navbar.Brand>
         <Nav
           activeKey={location.pathname}>
           <Nav.Item>

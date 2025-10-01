@@ -39,11 +39,13 @@ Dentro da raiz, inicie o projeto executando o comando:
   npm run dev
 ```
 
-Deve ser utilizada a porta 5173, padrão do VITE, para evitar problemas de CORS na comunicação com o backend. Caso seja necessário utilizar outra porta, atualizar o CORS dentro de `backend/src/index.js`.
+Deve ser utilizada a porta 5173, padrão do Vite, para evitar problemas de CORS na comunicação com o backend. Caso seja necessário utilizar outra porta, atualizar o CORS dentro de `backend/src/index.js`.
 
 A aplicação está pronto para ser utilizada acessando `http://localhost:5173`!
 
 ## Documentação
+
+![](./assets/swagger.png)
 
 A documentação via Swagger dos endpoints criados para o backend pode ser encontrado acessando `http://localhost:{BACKEND-PORT}/api-docs` após iniciar o backend, em que BACKEND-PORT é a porta no qual o backend está rodando.
 
